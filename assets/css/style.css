@@ -207,6 +207,15 @@ header.header .navbar ul li a:hover {
 }
 /* Payment Method Section CSS Ends Here */
 
+/* Signup Page CSS Starts Here */
+.signup-box {
+  background-color: var(--blue);
+  padding: 3rem 1.5rem;
+  border-radius: 1rem;
+  border: 2px solid var(--yellow);
+}
+/* Signup Page CSS Ends Here */
+
 /* Footer CSS Starts Here */
 footer {
   background-color: var(--blue);
