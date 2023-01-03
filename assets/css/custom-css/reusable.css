@@ -11,6 +11,10 @@
   color: var(--yellow);
 }
 
+.text-color {
+  color: var(--text-color);
+}
+
 .color-light {
   color: var(--light-color);
 }

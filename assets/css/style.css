@@ -46,11 +46,7 @@ header.header .navbar ul li a:hover {
   border: none;
 }
 
-.auth-form .forgot-pass:hover {
-  color: var(--yellow);
-}
-
-.auth-form .btn {
+.home-banner .btn {
   padding: 1rem 3rem;
   color: var(--white);
   font-size: 2rem;
@@ -59,11 +55,11 @@ header.header .navbar ul li a:hover {
   border-radius: 4rem;
 }
 
-.auth-form .signin-btn {
+.home-banner .signin-btn {
   background-color: var(--yellow);
 }
 
-.auth-form .signup-btn {
+.home-banner .signup-btn {
   background-color: var(--dark-blue);
 }
 /* Home Banner Section CSS Ends Here */
@@ -208,12 +204,7 @@ header.header .navbar ul li a:hover {
 /* Payment Method Section CSS Ends Here */
 
 /* Signup Page CSS Starts Here */
-.signup-box {
-  background-color: var(--blue);
-  padding: 3rem 1.5rem;
-  border-radius: 1rem;
-  border: 2px solid var(--yellow);
-}
+
 /* Signup Page CSS Ends Here */
 
 /* Footer CSS Starts Here */
