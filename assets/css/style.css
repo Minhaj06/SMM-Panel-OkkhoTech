@@ -263,6 +263,22 @@ header.header .navbar ul li a:hover {
 }
 /* Blog Page CSS Ends Here */
 
+/* Single Page Details Page CSS Starts Here */
+.post-details .post-img {
+  height: 50rem;
+}
+
+.post-details .post-description p {
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+
+.post-details .post-description .row {
+  margin-bottom: 2rem;
+}
+/* Single Page Details Page CSS Ends Here */
+
 /* Footer CSS Starts Here */
 footer {
   background-color: var(--blue);
