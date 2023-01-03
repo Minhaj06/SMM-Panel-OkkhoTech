@@ -21,13 +21,6 @@ header.header .navbar ul li a:hover {
   overflow: hidden;
 }
 
-.home-banner .home-banner-content .home-banner-title {
-  font-size: 10rem;
-  font-weight: bold;
-  color: var(--white);
-  text-transform: capitalize;
-}
-
 .home-banner .home-banner-img {
   margin-right: -16rem;
   margin-bottom: -8rem;
@@ -203,14 +196,25 @@ header.header .navbar ul li a:hover {
 }
 /* Payment Method Section CSS Ends Here */
 
-/* Signup Page CSS Starts Here */
+/* About Us Page CSS Starts Here */
+.happy-customers::before {
+  top: 0;
+  height: 60%;
+}
+/* About Us Page CSS Ends Here */
 
-/* Signup Page CSS Ends Here */
+/* FAQ Page CSS Starts Here */
+.faq-page .faq-card {
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 0.7rem;
+}
+/* FAQ Page CSS Ends Here */
 
 /* Footer CSS Starts Here */
 footer {
   background-color: var(--blue);
-  padding-top: 10rem;
+  padding-top: 7rem;
 }
 
 footer .subscribe-form .input-group {

@@ -1,39 +1,46 @@
+.main-title {
+  font-size: 10rem;
+  font-weight: bold;
+  color: var(--white);
+  text-transform: capitalize;
+}
+
 /* colors */
 .color-blue {
-  color: var(--blue);
+  color: var(--blue) !important;
 }
 
 .color-dark-blue {
-  color: var(--dark-blue);
+  color: var(--dark-blue) !important;
 }
 
 .color-yellow {
-  color: var(--yellow);
+  color: var(--yellow) !important;
 }
 
 .text-color {
-  color: var(--text-color);
+  color: var(--text-color) !important;
 }
 
 .color-light {
-  color: var(--light-color);
+  color: var(--light-color) !important;
 }
 
 .color-white {
-  color: var(--white);
+  color: var(--white) !important;
 }
 
 .color-black {
-  color: var(--black);
+  color: var(--black) !important;
 }
 
 /* background colors */
 .bg-blue {
-  background-color: var(--blue);
+  background-color: var(--blue) !important;
 }
 
 .bg-dark-blue {
-  background-color: var(--dark-blue);
+  background-color: var(--dark-blue) !important;
 }
 
 .bg-yellow {
@@ -105,4 +112,13 @@
 .rounded-bottom-5 {
   border-bottom-left-radius: 1rem !important;
   border-bottom-right-radius: 1rem !important;
+}
+
+/* Button Rounded */
+.button {
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+  border: 1px solid var(--yellow);
+  border-radius: 4rem;
 }
