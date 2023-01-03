@@ -211,6 +211,58 @@ header.header .navbar ul li a:hover {
 }
 /* FAQ Page CSS Ends Here */
 
+/* Blog Page CSS Starts Here */
+.blog-card {
+  background-color: var(--blue);
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 100%;
+}
+
+.blog-card img {
+  width: 100%;
+  height: 23rem;
+}
+
+.blog-card .blog-content {
+  padding: 2rem 1.5rem;
+}
+
+.blog-card .blog-content .cat {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: var(--yellow);
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.blog-card .blog-content .cat:hover {
+  opacity: 0.7;
+}
+
+.blog-card .blog-content .blog-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.blog-card .blog-content .blog-desc {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.blog-card .blog-content .see-more {
+  color: var(--yellow);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.blog-card .blog-content .see-more:hover {
+  opacity: 0.7;
+}
+/* Blog Page CSS Ends Here */
+
 /* Footer CSS Starts Here */
 footer {
   background-color: var(--blue);
