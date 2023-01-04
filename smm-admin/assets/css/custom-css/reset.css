@@ -3,8 +3,6 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  /* transition: all 0.2s linear; */
-  border-color: var(--stroke-color);
 }
 
 html {
@@ -49,4 +47,15 @@ h5,
 h6,
 p {
   margin-bottom: 0;
+}
+
+.btn:focus,
+input:focus,
+.form-control:focus {
+  box-shadow: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

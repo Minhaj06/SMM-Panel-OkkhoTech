@@ -17,8 +17,14 @@
 .text-color {
   color: var(--text-color) !important;
 }
+.text-color-2 {
+  color: var(--text-color-2) !important;
+}
 .text-color-muted {
   color: var(--text-color-muted) !important;
+}
+.text-color-muted-2 {
+  color: var(--text-color-muted-2) !important;
 }
 
 /* background colors */

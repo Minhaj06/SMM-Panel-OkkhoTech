@@ -5,7 +5,7 @@
   width: 27rem;
   height: 100%;
   background-color: var(--white-color);
-  background-color: var(--green-color);
+  transition: var(--tran-03);
 }
 
 #header {
@@ -13,19 +13,18 @@
   top: 0;
   left: 27rem;
   width: calc(100% - 27rem);
-  height: 7.5rem;
   background-color: var(--white-color);
-  background-color: var(--brand-color);
+  transition: var(--tran-03);
 }
 
 #main {
   position: absolute;
-  top: 7.5rem;
+  top: 7rem;
   left: 27rem;
   width: calc(100% - 27rem);
-  min-height: calc(100vh - 7.5rem);
+  min-height: calc(100vh - 7rem);
   background: var(--light-color);
-  background-color: var(--bs-info);
+  transition: var(--tran-03);
 }
 
 /* Close Sidebar*/
