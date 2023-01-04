@@ -279,6 +279,31 @@ header.header .navbar ul li a:hover {
 }
 /* Single Page Details Page CSS Ends Here */
 
+/* Service Page CSS Starts Here */
+.service-table {
+  min-width: 100rem;
+}
+
+.service-table tbody tr {
+  border-bottom: 2px solid var(--blue);
+}
+
+.service-table tr th,
+.service-table tr td {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  vertical-align: middle;
+}
+
+/* .modal .modal-title {
+  color: var(--dark-blue);
+}
+
+.modal .modal-body {
+  color: var(--text-color);
+} */
+/* Service Page CSS Ends Here */
+
 /* Footer CSS Starts Here */
 footer {
   background-color: var(--blue);
