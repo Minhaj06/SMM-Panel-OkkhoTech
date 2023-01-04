@@ -1,0 +1,11 @@
+:root {
+  /* colors */
+  --brand-color: #6c5ffc;
+  --green-color: #13bfa6;
+  --red-color: #e82646;
+  --white-color: #ffffff;
+  --black-color: #000000;
+
+  --text-color: #282f53;
+  --text-color-muted: #74829c;
+}
