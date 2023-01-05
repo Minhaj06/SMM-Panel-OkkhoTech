@@ -72,3 +72,43 @@ a.nav-link {
 a.nav-link:hover {
   color: var(--brand-color);
 }
+
+label {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+.form-control {
+  font-size: 1.5rem;
+  border-color: var(--text-color-muted-2);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.form-control:focus {
+  border-color: var(--text-color-muted-2);
+  box-shadow: none;
+  outline: none;
+  background-color: #6c5ffc12;
+}
+
+.page-item.active .page-link {
+  background-color: var(--brand-color);
+  border-color: var(--brand-color);
+}
+
+.page-link {
+  color: var(--brand-color);
+}
+
+.page-link:hover {
+  color: var(--brand-color);
+  background-color: #6c5ffc12;
+  border-color: #6c5ffc12;
+}
+
+.page-link:focus {
+  color: var(--brand-color);
+  background-color: #6c5ffc12;
+  box-shadow: none;
+}
