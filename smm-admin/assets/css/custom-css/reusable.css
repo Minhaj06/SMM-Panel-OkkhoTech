@@ -161,3 +161,24 @@
   color: #ffffff;
   background-color: var(--brand-color);
 }
+
+/* Status */
+.status-completed {
+  color: var(--green-color);
+  background-color: #13bfa626;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+}
+
+.status-pending {
+  color: var(--bs-warning);
+  background-color: #ffc10729;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+}
+.status-cancelled {
+  color: var(--red-color);
+  background-color: #e8264621;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+}

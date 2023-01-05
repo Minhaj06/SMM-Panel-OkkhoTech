@@ -1,4 +1,4 @@
-.header .search-box input {
+.search-box input {
   border: 1px solid var(--text-color-muted-2);
   padding: 1rem 1.5rem;
   min-width: 35rem;
