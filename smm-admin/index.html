@@ -272,9 +272,266 @@
     <!-- Header Ends Here -->
 
     <!-- Main Content Starts Here -->
-    <main class="main p-4" id="main">
+    <main class="main px-4 py-5" id="main">
         <div class="container-fluid">
-            <h1>Main</h1>
+            <h2 class="text-capitalize mb-5">dashboard 01</h2>
+
+            <!-- Count Cards Start Here -->
+            <div class="count-cards mb-5">
+                <div class="row g-5 g-lg-4 g-xxl-5">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="count-card-single h-100 bg-white p-5 rounded-4 border-s-brand-5">
+                            <h5 class="fs-14 text-capitalize fw-normal text-color mb-2">total users</h5>
+                            <h1 class="fw-semibold">44,278</h1>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="count-card-single h-100 bg-white p-5 rounded-4 border-s-brand-5">
+                            <h5 class="fs-14 text-capitalize fw-normal text-color mb-2">total profit</h5>
+                            <h1 class="fw-semibold">44,278</h1>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="count-card-single h-100 bg-white p-5 rounded-4 border-s-brand-5">
+                            <h5 class="fs-14 text-capitalize fw-normal text-color mb-2">total expenses</h5>
+                            <h1 class="fw-semibold">44,278</h1>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="count-card-single h-100 bg-white p-5 rounded-4 border-s-brand-5">
+                            <h5 class="fs-14 text-capitalize fw-normal text-color mb-2">total cost</h5>
+                            <h1 class="fw-semibold">44,278</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Count Cards End Here -->
+
+
+            <!-- Location and Browser Usage Start Here -->
+            <div class="location-browser-usage mb-5">
+                <div class="row g-5">
+                    <div class="col-lg-6">
+                        <div class="device-location text-color bg-white rounded-4 shadow-lg pb-4">
+
+                            <p class="border-bottom text-capitalize fw-medium px-5 py-5 mb-4">Sales Report by Locations
+                                with
+                                Devices</p>
+
+                            <table class="table table-borderless text-capitalize fs-14">
+                                <thead>
+                                    <tr class="text-uppercase border-bottom">
+                                        <th class="px-5 py-3 fw-medium">device</th>
+                                        <th class="px-5 py-3 fw-medium">usa</th>
+                                        <th class="px-5 py-3 fw-medium">india</th>
+                                        <th class="px-5 py-3 fw-medium">bahrain</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="border-bottom">
+                                        <td class="px-5 py-3">
+                                            <span class="d-inline-block">
+                                                <span style="background-color: #6c5ffc2b"
+                                                    class="device-icon brand-color">
+                                                    <i class="fa-solid fa-mobile-screen"></i>
+                                                </span>
+                                            </span>
+                                            mobile
+                                        </td>
+                                        <td class="px-5 py-3">17%</td>
+                                        <td class="px-5 py-3">22%</td>
+                                        <td class="px-5 py-3">11%</td>
+                                    </tr>
+                                    <tr class="border-bottom">
+                                        <td class="px-5 py-3">
+                                            <span class="d-inline-block">
+                                                <span style="background-color: #13bfa62b"
+                                                    class="device-icon green-color">
+                                                    <i class="fa-solid fa-display"></i>
+                                                </span>
+                                            </span>
+                                            desktops
+                                        </td>
+                                        <td class="px-5 py-3">34%</td>
+                                        <td class="px-5 py-3">76%</td>
+                                        <td class="px-5 py-3">58%</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-5 py-3">
+                                            <span class="d-inline-block">
+                                                <span style="background-color: #e8264624" class="device-icon red-color">
+                                                    <i class="fa-solid fa-tablet-screen-button"></i>
+                                                </span>
+                                            </span>
+                                            tablets
+                                        </td>
+                                        <td class="px-5 py-3">56%</td>
+                                        <td class="px-5 py-3">83%</td>
+                                        <td class="px-5 py-3">66%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="device-location text-color bg-white rounded-4 shadow-lg pb-4">
+
+                            <p class="border-bottom text-capitalize fw-medium px-5 py-5 mb-4">browser usage</p>
+
+                            <div class="browser-details">
+
+                                <div class="browser-details-single d-flex align-items-center gap-3 px-5 my-5">
+                                    <div class="browser-icon">
+                                        <img src="images/browser-chrome.svg" alt="">
+                                    </div>
+                                    <div class="browser-details w-100 text-color">
+                                        <div class="d-flex justify-content-between text-capitalize fs-14 mb-2">
+                                            <span>chrome</span>
+                                            <span>35,502 <span
+                                                    class="fs-11 fw-semibold brand-color">(12.75%)</span></span>
+                                        </div>
+
+                                        <div class="progress" style="height: .8rem">
+                                            <div class="progress-bar bg-brand" role="progressbar" style="width: 50%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="browser-details-single d-flex align-items-center gap-3 px-5 my-5">
+                                    <div class="browser-icon">
+                                        <img src="images/browser-opera.svg" alt="">
+                                    </div>
+                                    <div class="browser-details w-100 text-color">
+                                        <div class="d-flex justify-content-between text-capitalize fs-14 mb-2">
+                                            <span>opera</span>
+                                            <span>35,502 <span
+                                                    class="fs-11 fw-semibold text-info">(12.75%)</span></span>
+                                        </div>
+
+                                        <div class="progress" style="height: .8rem">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="browser-details-single d-flex align-items-center gap-3 px-5 my-5">
+                                    <div class="browser-icon">
+                                        <img src="images/browser-opera.svg" alt="">
+                                    </div>
+                                    <div class="browser-details w-100 text-color">
+                                        <div class="d-flex justify-content-between text-capitalize fs-14 mb-2">
+                                            <span>IE</span>
+                                            <span>35,502 <span
+                                                    class="fs-11 fw-semibold text-success">(12.75%)</span></span>
+                                        </div>
+
+                                        <div class="progress" style="height: .8rem">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="browser-details-single d-flex align-items-center gap-3 px-5 my-5">
+                                    <div class="browser-icon">
+                                        <img src="images/browser-firefox.svg" alt="">
+                                    </div>
+                                    <div class="browser-details w-100 text-color">
+                                        <div class="d-flex justify-content-between text-capitalize fs-14 mb-2">
+                                            <span>firefox</span>
+                                            <span>35,502 <span
+                                                    class="fs-11 fw-semibold red-color">(12.75%)</span></span>
+                                        </div>
+
+                                        <div class="progress" style="height: .8rem">
+                                            <div class="progress-bar bg-red" role="progressbar" style="width: 50%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="browser-details-single d-flex align-items-center gap-3 px-5 my-5">
+                                    <div class="browser-icon">
+                                        <img src="images/browser-firefox.svg" alt="">
+                                    </div>
+                                    <div class="browser-details w-100 text-color">
+                                        <div class="d-flex justify-content-between text-capitalize fs-14 mb-2">
+                                            <span>edge</span>
+                                            <span>35,502 <span
+                                                    class="fs-11 fw-semibold text-warning">(12.75%)</span></span>
+                                        </div>
+
+                                        <div class="progress" style="height: .8rem">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 50%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="browser-details-single d-flex align-items-center gap-3 px-5 my-5">
+                                    <div class="browser-icon">
+                                        <img src="images/browser-safari.svg" alt="">
+                                    </div>
+                                    <div class="browser-details w-100 text-color">
+                                        <div class="d-flex justify-content-between text-capitalize fs-14 mb-2">
+                                            <span>safari</span>
+                                            <span>35,502 <span
+                                                    class="fs-11 fw-semibold text-primary">(12.75%)</span></span>
+                                        </div>
+
+                                        <div class="progress" style="height: .8rem">
+                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 50%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="browser-details-single d-flex align-items-center gap-3 px-5 my-5">
+                                    <div class="browser-icon">
+                                        <img src="images/browser-safari.svg" alt="">
+                                    </div>
+                                    <div class="browser-details w-100 text-color">
+                                        <div class="d-flex justify-content-between text-capitalize fs-14 mb-2">
+                                            <span>netscape</span>
+                                            <span>35,502 <span
+                                                    class="fs-11 fw-semibold green-color">(12.75%)</span></span>
+                                        </div>
+
+                                        <div class="progress" style="height: .8rem">
+                                            <div class="progress-bar bg-green" role="progressbar" style="width: 50%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Location and Browser Usage Start End -->
+
+
+            <!-- Product Table Starts Here -->
+            <div class="product-table-area">
+                <div class="text-color bg-white rounded-4 shadow-lg pb-4">
+
+                    <p class="border-bottom text-capitalize fw-medium px-5 py-5 mb-4">product sales</p>
+
+                    <div class="table-product-filter d-flex justify-content-between align-items-center">
+                        <div class="select-product-entries text-nowrap">
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- Product Table Ends Here -->
+
         </div>
     </main>
     <!-- Main Content Ends Here -->
