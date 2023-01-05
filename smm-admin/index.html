@@ -26,13 +26,16 @@
     <title>SMM Panel</title>
 </head>
 
-<body>
+<body class="body" id="body">
 
     <!-- Sidebar Starts Here -->
     <nav class="sidebar" id="sidebar">
         <div class="sidebar-header text-center py-4 border-bottom">
-            <a href="index.html">
-                <img class="logo img-fluid" src="images/logo.png" alt="Logo">
+            <a href="index.html d-block">
+                <div>
+                    <img class="logo img-fluid" src="images/logo.png" alt="Logo">
+                    <span class="logo-text fs-1 black-color">sash</span>
+                </div>
             </a>
         </div>
 
@@ -209,7 +212,7 @@
                 <!-- Header Right Part -->
                 <div class="header-right">
                     <div class="d-flex align-items-center">
-                        <span class="fullscreen-btn fs-2 brand-color" role="button">
+                        <span onclick="toggleFullScreen();" class="fullscreen-btn fs-2 brand-color" role="button">
                             <i class="fa-solid fa-compress"></i>
                         </span>
 
@@ -217,7 +220,7 @@
                             <a class="text-color-dark brand-color" href="">
                                 <div class="floating-text-icon d-inline-block position-relative fs-2">
                                     <i class="fa-regular fa-bell"></i>
-                                    <span class="floating-num bg-green fs-6">5</span>
+                                    <span class="floating-num bg-green fs-6"></span>
                                 </div>
                             </a>
                         </div>
@@ -232,7 +235,34 @@
                         </div> -->
 
                         <div class="user-profile-img ms-5">
-                            <img src="images/user-profile-img.jpg" alt="">
+                            <div class="btn-group">
+                                <img src="images/user-profile-img.jpg" type="button" class="dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false" alt="">
+                                <div class="dropdown-menu dropdown-menu-end rounded-4 text-capitalize">
+                                    <div class="dropdown-header px-5 py-4 text-nowrap text-center border-bottom">
+                                        <h4 class="fs-15 text-color mb-2">percy kewshun</h4>
+                                        <h5 class="text-color-muted fs-12">senior admin</h5>
+                                    </div>
+
+                                    <ul>
+                                        <li class="nav-item fs-14 border-bottom">
+                                            <a class="nav-link p-4" href="">
+                                                <span class="brand-color me-3"><i class="fa-regular fa-user"></i></span>
+
+                                                <span>profile</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item fs-14">
+                                            <a class="nav-link p-4" href="">
+                                                <span class="brand-color me-3"><i
+                                                        class="fa-solid fa-arrow-right-from-bracket"></i></span>
+
+                                                <span>sign out</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

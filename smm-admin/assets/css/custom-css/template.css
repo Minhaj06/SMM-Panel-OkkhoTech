@@ -14,6 +14,7 @@
   left: 27rem;
   width: calc(100% - 27rem);
   background-color: var(--white-color);
+  z-index: 1030;
   transition: var(--tran-03);
 }
 

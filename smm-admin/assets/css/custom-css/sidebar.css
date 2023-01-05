@@ -79,3 +79,19 @@
 .menu-group .submenu li a .submenu-icon {
   font-size: 0.8rem;
 }
+
+#sidebar.close .menu-group .menu-name {
+  display: none;
+}
+#sidebar.close .dropdown__chevron {
+  display: none;
+}
+#sidebar.close .menu-group ul li a {
+  justify-content: center;
+}
+#sidebar.close .dropdown__menu .submenu {
+  display: none;
+}
+#sidebar.close .logo-text {
+  display: none;
+}
