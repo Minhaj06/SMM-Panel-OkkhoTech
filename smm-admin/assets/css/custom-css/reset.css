@@ -112,3 +112,9 @@ label {
   background-color: #6c5ffc12;
   box-shadow: none;
 }
+
+.alert-primary {
+  color: var(--brand-color);
+  background-color: #6c5ffc4a;
+  border-color: #6c5ffc45;
+}
