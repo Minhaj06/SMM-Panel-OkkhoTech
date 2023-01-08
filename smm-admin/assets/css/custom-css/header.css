@@ -22,3 +22,8 @@
   border-radius: 50%;
   cursor: pointer;
 }
+
+#searchModal .modal-dialog {
+  max-width: 100%;
+  margin: 0 auto;
+}

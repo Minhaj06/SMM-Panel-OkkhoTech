@@ -25,6 +25,7 @@
   width: calc(100% - 27rem);
   min-height: calc(100vh - 7rem);
   background: var(--light-color);
+  overflow: hidden;
   transition: var(--tran-03);
 }
 
@@ -41,4 +42,34 @@
 #sidebar.close ~ #main {
   width: calc(100% - 8rem);
   left: 8rem;
+}
+
+@media (max-width: 991.98px) {
+  #sidebar {
+    width: 27rem;
+    left: -27rem;
+    z-index: 1030;
+  }
+  #sidebar.close {
+    width: 27rem;
+    left: 0;
+  }
+
+  #header {
+    left: 0;
+    width: 100%;
+  }
+  #sidebar.close ~ #header {
+    left: 0;
+    width: 100%;
+  }
+
+  #main {
+    left: 0;
+    width: 100%;
+  }
+  #sidebar.close ~ #main {
+    left: 0;
+    width: 100%;
+  }
 }

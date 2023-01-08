@@ -7,7 +7,7 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -127,6 +127,10 @@ label {
   color: var(--brand-color);
   background-color: #6c5ffc12;
   box-shadow: none;
+}
+
+.breadcrumb-item.active {
+  color: var(--brand-color);
 }
 
 .alert-primary {
