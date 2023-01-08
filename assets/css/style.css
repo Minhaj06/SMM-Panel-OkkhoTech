@@ -294,14 +294,6 @@ header.header .navbar ul li a:hover {
   padding-bottom: 1rem;
   vertical-align: middle;
 }
-
-/* .modal .modal-title {
-  color: var(--dark-blue);
-}
-
-.modal .modal-body {
-  color: var(--text-color);
-} */
 /* Service Page CSS Ends Here */
 
 /* Footer CSS Starts Here */
@@ -348,3 +340,41 @@ footer .footer-icon span {
   text-decoration: underline;
 }
 /* Footer CSS Ends Here */
+
+/* Media Queries */
+@media (max-width: 1199.98px) {
+  .main-title {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header .navbar-nav {
+    text-align: center;
+  }
+  .main-title {
+    font-size: 5rem;
+  }
+  .fs-40 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .fs-60 {
+    font-size: 4rem;
+    line-height: 1.2 !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer .footer-icon {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
