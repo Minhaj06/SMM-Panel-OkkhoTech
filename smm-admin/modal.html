@@ -298,84 +298,44 @@
     <!-- Main Content Starts Here -->
     <main class="main px-4 py-5" id="main">
         <div class="container-fluid">
-            <h2 class="text-capitalize mb-5">dashboard 01</h2>
+            <h2 class="text-capitalize mb-5">Modal</h2>
 
-            <!-- Buttons -->
             <div class="mb-5">
                 <div class="row g-5">
 
-                    <!-- Rounded Buttons -->
                     <div class="col-lg-6">
                         <div class="text-color bg-white rounded-4 shadow-lg pb-4">
 
-                            <p class="border-bottom text-capitalize fw-medium px-5 py-5 mb-4">Rounded Button</p>
+                            <p class="border-bottom text-capitalize fw-medium px-5 py-5 mb-4">Success Alert Messages</p>
 
-                            <div class="card-body button-list px-5">
-                                <button class="btn button-primary btn-rounded">Primary</button>
-                                <button class="btn button-success btn-rounded">Success</button>
-                                <button class="btn button-danger btn-rounded">Danger</button>
-                                <button class="btn btn-warning btn-rounded">Danger</button>
-                                <button class="btn btn-info btn-rounded">Info</button>
-                            </div>
-                        </div>
-                    </div>
+                            <div class="card-body m-5 p-sm-5 rounded-4 bg-light text-center">
 
-                    <!-- Normarl Buttons -->
-                    <div class="col-lg-6">
-                        <div class="device-location text-color bg-white rounded-4 shadow-lg pb-4">
 
-                            <p class="border-bottom text-capitalize fw-medium px-5 py-5 mb-4">Normal Button</p>
+                                <div class="modal-content border-0 shadow">
+                                    <div class="modal-body p-5 text-center">
+                                        <div class="alert-icon mb-3">
+                                            <span>
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                        </div>
 
-                            <div class="card-body button-list px-5">
-                                <button class="btn button-primary">Primary</button>
-                                <button class="btn button-success">Success</button>
-                                <button class="btn button-danger">Danger</button>
-                                <button class="btn btn-warning">Danger</button>
-                                <button class="btn btn-info">Info</button>
-                            </div>
-                        </div>
-                    </div>
+                                        <h3 class="green-color mb-4">Congratulations!</h3>
+                                        <p class="mb-4 mx-4 fs-14 text-color lh-base">
+                                            There are many variations of passages of Lorem Ipsum
+                                            available, but the majority have suffered
+                                            alteration.
+                                        </p>
 
-                    <!-- Toggle Switches -->
-                    <div class="col-lg-6">
-                        <div class="text-color bg-white rounded-4 shadow-lg pb-4">
-
-                            <p class="border-bottom text-capitalize fw-medium px-5 py-5 mb-4">Toggle Switches</p>
-                            <div class="card-body button-list px-5">
-                                <div class="form-check form-switch">
-                                    <input class="form-check-input" type="checkbox" role="switch"
-                                        id="flexSwitchCheckDefault">
-                                    <label class="form-check-label" for="flexSwitchCheckDefault">Inactive</label>
+                                        <button class="btn button-success fs-14 py-3">Continue</button>
+                                    </div>
                                 </div>
-                                <div class="form-check form-switch">
-                                    <input class="form-check-input" type="checkbox" role="switch"
-                                        id="flexSwitchCheckChecked" checked>
-                                    <label class="form-check-label" for="flexSwitchCheckChecked">Active</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!-- Radio Buttons -->
-                    <div class="col-lg-6">
-                        <div class="text-color bg-white rounded-4 shadow-lg pb-4">
 
-                            <p class="border-bottom text-capitalize fw-medium px-5 py-5 mb-4">Radios</p>
-                            <div class="card-body button-list px-5">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                        id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Inactive
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                        id="flexRadioDefault2" checked>
-                                    <label class="form-check-label" for="flexRadioDefault2">
-                                        Active
-                                    </label>
-                                </div>
+                                <button type="button" class="btn button-primary mt-4" data-bs-toggle="modal"
+                                    data-bs-target="#alertModal">
+                                    View Modal
+                                </button>
+
                             </div>
                         </div>
                     </div>
@@ -386,6 +346,35 @@
         </div>
     </main>
     <!-- Main Content Ends Here -->
+
+
+    <!-- Alert Modal -->
+    <div class="modal fade" id="alertModal">
+        <div class="modal-dialog">
+            <div class="modal-content border-0 shadow">
+                <div class="modal-body p-5 text-center position-relative">
+
+                    <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+
+                    <div class="alert-icon mb-3">
+                        <span>
+                            <i class="fa-solid fa-check"></i>
+                        </span>
+                    </div>
+
+                    <h3 class="green-color mb-4">Congratulations!</h3>
+                    <p class="mb-4 mx-4 fs-14 text-color lh-base">
+                        There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered
+                        alteration.
+                    </p>
+
+                    <button class="btn button-success fs-14 py-3">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>

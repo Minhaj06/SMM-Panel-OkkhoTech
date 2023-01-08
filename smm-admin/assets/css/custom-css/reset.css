@@ -65,6 +65,15 @@ a {
   color: var(--text-color);
 }
 
+.hovarable {
+  opacity: 0.9;
+  transition: 0.2s;
+}
+
+.hovarable:hover {
+  opacity: 1;
+}
+
 a.nav-link {
   color: var(--text-color);
 }
@@ -90,6 +99,13 @@ label {
   box-shadow: none;
   outline: none;
   background-color: #6c5ffc12;
+}
+
+.input-group-text {
+  background: transparent;
+  border: 1px solid var(--text-color-muted-2);
+  font-size: 1.5rem;
+  color: var(--text-color-muted);
 }
 
 .page-item.active .page-link {
